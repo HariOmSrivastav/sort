@@ -1,0 +1,59 @@
+/* Add your CSS styles here */
+.head {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+}
+.nav {
+    /* text-align: center; */
+    /* display:inline-block; */
+    justify-content: space-between;
+
+    margin-top: 20px;
+
+}
+
+.btn {
+    color: aqua;
+    border-radius: 15px;
+    border-color: #0ea4d1;
+    margin: 5px;
+}
+body{
+    background-color: rgb(55, 77, 78);
+}
+#bar {
+    display: flex;
+    justify-content: center;
+    align-items:last baseline; /* Change align-items to flex-start */
+    /* height: 400vh; */
+    transform: scaleY(-1); /*Flip the bars upside down */
+}
+
+/* Adjust the background color of the bars here */
+.bar {
+    width: 8px;
+    background-color: #007bff; /* Default color */
+    margin: 0 1px;
+}
+
+/* You can define different classes for different colors */
+.bar.blue {
+    background-color: #118ead; /* Blue */
+}
+
+.bar.red {
+    background-color: #cd3f3f; /* Red */
+}
+
+.bar.green {
+    background-color: #737b17; /* Green */
+}
+
+.bar.orange {
+    background-color: #0cc453; /* Orange */
+}
+#As{
+    color: aqua;
+}
+/* Add more classes and colors as needed */
